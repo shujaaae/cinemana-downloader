@@ -1,0 +1,29 @@
+# ===== ملفات Claude والأدوات (مستثناة بطلب المستخدم) =====
+.claude/
+.mcp.json
+.playwright-mcp/
+CLAUDE.md
+memory/
+
+# ===== ملفات ليست من الكود (مستثناة بطلب المستخدم) =====
+re-design/
+tests/
+scripts/
+
+# ===== المحتوى المُنزَّل وحالة التشغيل =====
+Landman/
+.cinemana_state.json
+*.cinemana_state.json
+
+# ===== مخرجات البناء =====
+build/
+dist/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ===== نظام التشغيل والمحرّر =====
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
